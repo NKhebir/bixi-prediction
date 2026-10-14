@@ -1,0 +1,12 @@
+pandas
+numpy
+scikit-learn
+pyarrow
+holidays
+requests
+matplotlib
+joblib
+streamlit
+fastapi
+uvicorn
+pytest
