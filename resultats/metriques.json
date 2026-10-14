@@ -1,0 +1,39 @@
+{
+  "meilleur_modele": "Gradient boosting",
+  "gain_vs_moyenne_pourcent": 24.978360858503613,
+  "moyenne_departs_par_heure_test": 8.815653935185185,
+  "periode_test_debut": "2025-08-01",
+  "periode_test_fin": "2025-11-30",
+  "lignes_test": 138240,
+  "resultats": {
+    "Moyenne historique": {
+      "MAE": 4.330326353246641,
+      "RMSE": 6.561529280552172,
+      "R2": 0.5545133697316105
+    },
+    "Forêt aléatoire": {
+      "MAE": 3.486439548203229,
+      "RMSE": 5.246760542085268,
+      "R2": 0.7151560366553273
+    },
+    "Gradient boosting": {
+      "MAE": 3.2486818103818154,
+      "RMSE": 4.94846732809103,
+      "R2": 0.7466237251873521
+    }
+  },
+  "importance": {
+    "Heure de la journée": 4.1325478647801415,
+    "Station": 1.8915191001447604,
+    "Température": 1.2234553948215774,
+    "Jour de la semaine": 0.6697567204728104,
+    "Mois": 0.17208366242273643,
+    "Pluie": 0.1404104489842264,
+    "Jour férié": 0.027123111946361522,
+    "Vent": 0.021754606314675556,
+    "Popularité de la station": 0.003656534330749306,
+    "Week-end": 0.0006666757028400324,
+    "Année": 0.0
+  },
+  "station_graphique": "Métro Mont-Royal (Utilités publiques / Rivard)"
+}
